@@ -9,14 +9,14 @@
 # ----------------------------------------
 #
 
-IMP=true # Global parameter to bypass import generation
-MIR=true # Global parameter to bypass mirror generation
+# IMP=true # Global parameter to bypass import generation
+# MIR=true # Global parameter to bypass mirror generation
 
-## ONTOLOGY: oba
-## Copy of oba is re-downloaded whenever source changes
-mirror/oba.trigger: $(SRC)
+## ONTOLOGY: chebi
+## Copy of chebi is re-downloaded whenever source changes
+mirror/chebi.trigger: $(SRC)
 
-mirror/oba.owl: mirror/oba.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/oba.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+mirror/chebi.owl: mirror/chebi.trigger
+	$(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@
 
 .PRECIOUS: mirror/%.owl
