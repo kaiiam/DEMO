@@ -294,8 +294,8 @@ mirror/bco.owl: mirror/bco.trigger
 ## Copy of chebi is re-downloaded whenever source changes
 mirror/chebi.trigger: $(SRC)
 
-mirror/chebi.owl: mirror/bco.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+mirror/chebi.owl: mirror/chebi.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
