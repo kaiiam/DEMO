@@ -290,7 +290,14 @@ mirror/bco.owl: mirror/bco.trigger
 
 .PRECIOUS: mirror/%.owl
 
+## ONTOLOGY: chebi
+## Copy of chebi is re-downloaded whenever source changes
+mirror/chebi.trigger: $(SRC)
 
+mirror/chebi.owl: mirror/bco.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
 # Subsets
