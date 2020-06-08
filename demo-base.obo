@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: demo/releases/2020-06-08/demo-base.owl
+ontology: demo/demo-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Demonstration Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+
+[Term]
+id: DEMO:00000000
+name: root node
+
