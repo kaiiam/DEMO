@@ -2379,7 +2379,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000043"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An vegetated area which overlaps a wetland ecosystem.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Wetland</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Wetland</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000043"/>
@@ -4025,7 +4025,7 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The oceanic sea surface microlayer (SML) biome comprises the top 1000 micrometers of the marine surface waters occurring offshore, away from a continental shelf. It is the boundary layer where all exchange occurs between the atmosphere and the ocean. The chemical, physical, and biological properties of the SML differ greatly from the sub-surface water just a few centimeters beneath.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_surface_microlayer</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Sea_surface_microlayer</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4046,7 +4046,7 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The neritic sea surface microlayer (SML) biome comprises the top 1000 micrometers of marine surface waters occurring above a continental shelf. It is the boundary layer where all exchange occurs between the atmosphere and the ocean. The chemical, physical, and biological properties of the SML differ greatly from the sub-surface water just a few centimeters beneath.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_surface_microlayer</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Sea_surface_microlayer</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4423,7 +4423,7 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A large unit of land or water containing a geographically distinct assemblage of species, natural communities, and environmental conditions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>URL:http://worldwildlife.org/biomes</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://worldwildlife.org/biomes</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7693,7 +7693,7 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <oboInOwl:hasDbXref>TGN:21301</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21304</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21305</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Wetland</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Wetland</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>WETLAND</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wetland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>EstuarineWetland</oboInOwl:hasNarrowSynonym>
@@ -7825,7 +7825,7 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A terrestrial ecosystem which is inundated or saturated by surface or ground water at a frequency and duration sufficient to support, and that under normal circumstances does support, a prevalence of vegetation typically adapted for life in saturated soil conditions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Wetland</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Wetland</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
