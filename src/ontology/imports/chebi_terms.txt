@@ -1,0 +1,13 @@
+http://purl.obolibrary.org/obo/CHEBI_33284 # nutrient
+http://purl.obolibrary.org/obo/CHEBI_33287 # fertilizer
+http://purl.obolibrary.org/obo/CHEBI_33286 # agrochemical
+http://purl.obolibrary.org/obo/CHEBI_33284 # nutrient
+http://purl.obolibrary.org/obo/CHEBI_76413 # greenhouse
+http://purl.obolibrary.org/obo/CHEBI_76969 # bacterial metabolite
+http://purl.obolibrary.org/obo/CHEBI_77746 # human metabolite
+http://purl.obolibrary.org/obo/CHEBI_18230 # chlorophyll a
+http://purl.obolibrary.org/obo/CHEBI_17632 # nitrate
+http://purl.obolibrary.org/obo/CHEBI_17245 # carbon monoxide
+http://purl.obolibrary.org/obo/CHEBI_16526 # carbon dioxide
+http://purl.obolibrary.org/obo/CHEBI_16646 # carbohydrate
+http://purl.obolibrary.org/obo/CHEBI_16183 # methane
