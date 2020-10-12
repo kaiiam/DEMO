@@ -29,6 +29,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -56,8 +62,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_1000001">
         <obo:IAO_0000115 xml:lang="en">The developmental stages of living organsims.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
         <oboInOwl:hasExactSynonym xml:lang="en">stages</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiology</oboInOwl:inSubset>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/demo#Physiology"/>
         <rdfs:comment xml:lang="en">Some sort of comment about it if needed.</rdfs:comment>
         <rdfs:label xml:lang="en">Life Stage</rdfs:label>
     </owl:Class>
@@ -68,7 +75,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_1000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_1000001"/>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiology</oboInOwl:inSubset>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/demo#Physiology"/>
         <rdfs:label xml:lang="en">Copepod Specific</rdfs:label>
     </owl:Class>
     
@@ -78,7 +85,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_1000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_1000002"/>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiology</oboInOwl:inSubset>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/demo#Physiology"/>
         <rdfs:label xml:lang="en">C1</rdfs:label>
     </owl:Class>
     
@@ -88,7 +95,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_1000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_1000002"/>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiology</oboInOwl:inSubset>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/demo#Physiology"/>
         <rdfs:label xml:lang="en">C2</rdfs:label>
     </owl:Class>
     
@@ -97,7 +104,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000015">
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiology</oboInOwl:inSubset>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/demo#Physiology"/>
         <rdfs:comment xml:lang="en">This was added to ENVO:ocean.</rdfs:comment>
     </owl:Class>
 </rdf:RDF>
