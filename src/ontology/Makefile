@@ -299,6 +299,18 @@ mirror/chebi.owl: mirror/chebi.trigger
 
 .PRECIOUS: mirror/%.owl
 
+
+
+
+#### Modules
+# test Robot template
+modules/test_robot.owl: modules/test_robot.tsv
+	$(ROBOT) template --template $< -i demo-edit.owl --prefix "DEMO:http://purl.obolibrary.org/obo/DEMO_" --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "ENVO:http://purl.obolibrary.org/obo/ENVO_"  --ontology-iri "http://purl.obolibrary.org/demo/modules/test_robot.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+
+
+
+
+
 # ----------------------------------------
 # Subsets
 # ----------------------------------------
