@@ -309,6 +309,16 @@ modules/test.owl: modules/test.csv
 
 
 
+### testing ROBOT filter:
+modules/test_filtered.owl: demo-edit.owl
+	$(ROBOT) filter --input demo-edit.owl \
+		--prefix "DEM:http://purl.obolibrary.org/obo/demo#" \
+		--select "oboInOwl:inSubset=DEM:Physiology" \
+		--select annotations \
+		--signature true \
+	annotate --ontology-iri "http://purl.obolibrary.org/demo/modules/test_filtered.owl" \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
+
 
 
 # ----------------------------------------
