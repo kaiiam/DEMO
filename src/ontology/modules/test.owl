@@ -35,6 +35,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -51,6 +57,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_1000001">
         <obo:IAO_0000115 xml:lang="en">A test term which is TBD.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">testy</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">testSubset</oboInOwl:inSubset>
         <rdfs:comment xml:lang="en">A whole comment may include some sarcasm.</rdfs:comment>
         <rdfs:label xml:lang="en">test term label</rdfs:label>
     </owl:Class>
@@ -60,6 +67,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000015">
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">testSubset</oboInOwl:inSubset>
         <rdfs:comment xml:lang="en">This was added to ENVO:ocean.</rdfs:comment>
     </owl:Class>
 </rdf:RDF>
