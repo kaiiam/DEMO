@@ -20,18 +20,9 @@ Annotation(dce:title "Demonstration Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/DEMO_00000000>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/demo#Physiology>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/demo#Physiology> (<http://purl.obolibrary.org/obo/demo#Physiology>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/demo#Physiology> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
 
 
 ############################
