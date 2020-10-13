@@ -1,0 +1,11 @@
+# run from /modules # this works because the classes are in the test.owl module
+robot filter --input test.owl --prefix "test: http://purl.obolibrary.org/obo/uberon/test#" --select "oboInOwl:inSubset=test:physiology" --select annotations --signature true --output results/test_physiology.owl
+
+# run from ontology: # this doesn't work because the classes aren't actually in the demo-edit.owl I'll need to merge first, then I can filter.
+robot filter --input demo-edit.owl --prefix "test: http://purl.obolibrary.org/obo/uberon/test#" --select "oboInOwl:inSubset=test:physiology" --select annotations --signature true --output modules/results/test_physiology.owl
+
+# merge run from ontology:
+robot merge --input imports/envo_import.owl --input modules/test.owl annotate --ontology-iri "http://purl.obolibrary.org/demo/modules/demo_merged.owl" --version-iri "http://purl.obolibrary.org/demo/modules/demo_merged.owl" --output modules/demo_merged.owl
+
+# Filter from merged ontology
+robot filter --input modules/demo_merged.owl --prefix "test: http://purl.obolibrary.org/obo/uberon/test#" --select "oboInOwl:inSubset=test:physiology" --select annotations --signature true --output modules/results/test_physiology.owl
