@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/envo/modules/esip_sem_harmo.owl#"
+     xml:base="http://purl.obolibrary.org/envo/modules/esip_sem_harmo.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/envo/modules/esip_sem_harmo.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002297 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002297"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002354 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002354"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002473 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002473"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000293"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000547"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000844">
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/phenAtmoFog/Fog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000875"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000903">
+        <obo:IAO_0000115 xml:lang="en">A blizzard is a severe snowstorm during which snow is transported by strong winds, sustained for several hours.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:resource="def~https://www.ec.gc.ca/meteo-weather/default.asp?lang=En&amp;n=B8CD636F-1&amp;def=allShow"/>
+        <oboInOwl:hasDbXref rdf:resource="http://glossary.ametsoc.org/wiki/Main_Page"/>
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/phenAtmoPrecipitation/Blizzard"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.bom.gov.au/lam/glossary/"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.physicalgeography.net/glossary.html"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">boulbie</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">buran</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">purga</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment xml:lang="en">The U.S. National Weather Service specifies sustained wind or frequent gusts of 16 m per second (30 kt or 35 mi per hour) or greater, accompanied by falling and/or blowing snow, frequently reducing visibility to less than 400 m (0.25 mi or 0.4 km) for 3 hours or longer. Earlier definitions also included a condition of low temperatures, on the order of -7C (20F) or lower, or -12C (10F) or lower (severe blizzard). The name originated in the United States but it is also used in other countries. In the Antarctic the name is given to violent autumnal winds off the ice cap. In southeastern France, the cold north wind with snow is termed blizzard (see also boulbie). Similar storms in Russian Asia are the buran and purga. In popular usage in the United States and in England, the term is often used for any heavy snowstorm accompanied by strong winds.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001082"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001548">
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/procStateChange/Freezing"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001549"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001850"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000963"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001759"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Water ice which 1) has a white or milky and opaque appearance, 2) has a granular texture, and 3) is formed as a result of the deposition and rapid freezing of supercooled water drops as they make contact with an exposed object.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Obsolete old definition in protege.</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-18T19:59:42.028Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="com~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="def~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/matrWater/Rime"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">Rime is denser and harder than hoarfrost, but lighter, softer, and less transparent than glaze. Rime is composed essentially of discrete ice granules and has densities as low as 0.2-0.3 g cm-3. Glaze is generally continuous but with some air pockets and has much higher densities. Factors that favor rime formation are small drop size, slow accretion, a high degree of supercooling, and rapid dissipation of latent heat of fusion. The opposite effects favor glaze formation. Both rime and glaze occur when supercooled water drops strike an object at a temperature below freezing. Such formation on terrestrial objects constitutes an ice storm; on aircraft, it is called aircraft icing (where rime is known as rime ice). Either rime or glaze may form on snow crystals, droxtals, or other ice particles in the atmosphere. When such a deposit is wholly or chiefly of rime, snow pellets result; when most or all of the deposit is glaze, ordinary hail or ice pellets result. The alternating clear and opaque layers of some hailstones represent glaze and rime, deposited under varying conditions around the growing hailstone.</rdfs:comment>
+        <rdfs:label xml:lang="en">rime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001850"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000903"/>
+        <obo:IAO_0000115 xml:lang="en">A blizzard which 1) lasts at least 3 hours, 2) combines below freezing temperatures and very strong wind, laden with blowing snow.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T20:13:10.917Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="def~https://www.wmo.int/pages/prog/lsp/meteoterm_wmo_en.html"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">Blizzards typically reduces visibility to less than 1 km</rdfs:comment>
+        <rdfs:label xml:lang="en">WMO blizzard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000903"/>
+        <obo:IAO_0000115 xml:lang="en">A blizzard which has 1) winds of 35 miles per hour (approximately 56 kilometers per hour), 2) lasts for period of at least three hours, and 3) occurs in extremely cold temperatures.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T20:13:10.917Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="def ~https://nsidc.org/cryosphere/glossary"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">The original definition has been edited to conform to ENVO&apos;s textual pattern. Subjective/observer-based differentia (e.g. visibility) have been moved to comments. The NSIDC definition notes that blizzards involve snow reducing visibility to less than one-quarter mile (0.4 km) and are associated with dangerous blizzard conditions.</rdfs:comment>
+        <rdfs:label xml:lang="en">NSIDC blizzard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000903"/>
+        <obo:IAO_0000115 xml:lang="en">A blizzard which occurs in winter.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T20:13:10.917Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="def~ http://www.physicalgeography.net/glossary.html"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">The original definition has been edited to conform to ENVO&apos;s textual pattern. Subjective/observer-based differentia (e.g. visibility) have been moved to comments.</rdfs:comment>
+        <rdfs:label xml:lang="en">winter blizzard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000844"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002297"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000547"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001848"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A fog the droplets of which freeze upon contact with exposed objects, forming a coating of rime or glaze.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T20:13:10.917Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="def~http://glossary.ametsoc.org/wiki/Main_Page"/>
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/phenAtmoFog/FreezingFog"/>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">freezing fog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000293"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000875"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000323"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000963"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An ice mass which is 1) on the order of 1 milimeter or less, 2) has a white and opaque appearance, and 3) is formed as a result of water droplets freezing during precipitation.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Need to add a computable size constraint.</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-18T20:22:03.870Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="com~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="def~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/matrWater/SnowGrain"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">snow grain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">granular snow</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">Precipitation in the form of very small, white opaque particles of ice; the solid equivalent of drizzle. They resemble snow pellets in external appearance, but are more flattened and elongated, and generally have diameters of less than 1 mm; they neither shatter nor bounce when they hit a hard surface. Descriptions of the physical structure of snow grains vary widely and include very fine, simple ice crystals; tiny, complex snow crystals; small, compact bundles of rime; and particles with a rime core and a fine glaze coating. It is agreed that snow grains usually fall in very small quantities, mostly from stratus clouds or from fog, and never in the form of a shower.</rdfs:comment>
+        <rdfs:label xml:lang="en">grain of snow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000844"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Fog which is composed of particles of ice.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">In future will add computable renditions of size and temperature constraints. The synonyms of this class can be quite confusing, as they reference entities like frost (which requires a surface for deposition). Might need to add a new droxtal class see https://glossary.ametsoc.org/wiki/Droxtal.</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-18T20:48:37.965Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="com~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="def~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/phenAtmoFog/IceFog"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">frozen fog</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ice-crystal fog</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pogonip</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">air hoar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">frost flakes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">frost fog</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">rime fog</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">The suspended particles may be partly ice crystals 20 to 100 micron in diameter, but chiefly, especially when dense, droxtals 12-20 micron in diameter. Ice fog is formed by direct freezing of supercooled water droplets with little growth directly from the vapor. It occurs at very low temperatures, and usually in clear, calm weather in high latitudes. The sun is usually visible and may cause halo phenomena or luminous pillars. Ice fog is rare at temperatures warmer than -30 °C, and increases in frequency with decreasing temperature until it is almost always present at air temperatures of -45 °C in the vicinity of a source of water vapor. Such sources are the open water of fast-flowing streams or of the sea, herds of animals, volcanoes, and especially products of combustion for heating or propulsion. At temperatures warmer than -30 °C, these sources can cause steam fog of liquid water droplets, which may turn into ice fog when cooled.</rdfs:comment>
+        <rdfs:label xml:lang="en">ice fog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001082"/>
+        <obo:IAO_0000115 xml:lang="en">A climate which 1) has a mean temperature for the warmest month of less than 10°C (50°F), but higher than 0°C (32°F), 2) is not conducive to a permanent surficial cover of snow or ice, and 3) supports a tundra ecosystem.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Might need to add the Köppen climate classifications. Climate conditions might be obsoleted. Warmest month and mean temperature are operationally defined, will need to sort these out. Focusing on physical differential like surface cover would be preferable, (but maybe not practical).</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-3410-4655"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-0337-8610"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-18T21:04:41.822Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="com~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="def~https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/realmClimateZone/TundraClimate"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envoPolar</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">In W. Köppen&apos;s 1936 climatic classification it is one of the polar climates, defined as having a mean temperature for the warmest month of less than 10°C (50°F) (in contrast to snow forest and temperate rainy climates) but higher than 0°C (32°F) (which is the limit of perpetual frost climate). Tundra is designated ET. Tundra climate appears as a temperature province in C. W. Thornthwaite&apos;s 1931 classification.</rdfs:comment>
+        <rdfs:label xml:lang="en">tundra climate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000323"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000963"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001759"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
