@@ -299,6 +299,28 @@ mirror/chebi.owl: mirror/chebi.trigger
 
 .PRECIOUS: mirror/%.owl
 
+
+
+
+#### Modules
+# test Robot template
+modules/test.owl: modules/test.csv
+	$(ROBOT) template --template $< -i demo-edit.owl --prefix "DEMO:http://purl.obolibrary.org/obo/DEMO_" --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "ENVO:http://purl.obolibrary.org/obo/ENVO_"  --ontology-iri "http://purl.obolibrary.org/demo/modules/test.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+
+
+
+### testing ROBOT filter:
+modules/test_filtered.owl: demo-edit.owl
+	$(ROBOT) filter --input demo-edit.owl \
+		--prefix "DEM:http://purl.obolibrary.org/obo/demo#" \
+		--select "oboInOwl:inSubset=DEM:Physiology" \
+		--select annotations \
+		--signature true \
+	annotate --ontology-iri "http://purl.obolibrary.org/demo/modules/test_filtered.owl" \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
+
+
+
 # ----------------------------------------
 # Subsets
 # ----------------------------------------
